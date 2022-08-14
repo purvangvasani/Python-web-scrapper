@@ -1,0 +1,1 @@
+[{"parameterName": "@version", "type": "string", "cardinality": "[0..1]", "description": "Web Service version"}]

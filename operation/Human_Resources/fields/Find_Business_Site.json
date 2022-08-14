@@ -1,0 +1,1 @@
+[{"parameterName": "@version", "type": "string", "cardinality": "[0..1]", "description": "Web Service version"}, {"parameterName": "Location_Name", "type": "string", "cardinality": "[0..1]", "description": "If specified, this search criterium will return those references with an exact match.  The search index used to query on this value is not case-sensitive."}]

@@ -181,7 +181,7 @@ for index in tqdm(range(len(serviceArr))):
     ## Fields of Operation Extraction
     for id in range(len(operationArr)):
         #pool.apply_async(retrieveFieldData,(operationArr[id]['link'].strip(), operationArr[id]['service'], operationArr[id]['operation'],))
-        t = threading.Thread(target=retrieveFieldData, args=(operationArr[id]['link'].strip(), operationArr[id]['service'], operationArr[id]['operation'],))
+        #t = threading.Thread(target=retrieveFieldData, args=(operationArr[id]['link'].strip(), operationArr[id]['service'], operationArr[id]['operation'],))
         #threads.append(t)
         #t.start()
         p=Process(target=retrieveFieldData,args=(operationArr[id]['link'].strip(), operationArr[id]['service'], operationArr[id]['operation'],))
